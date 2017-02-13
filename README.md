@@ -1,6 +1,6 @@
 # ez-gimpy-recognizer
 
-Recognizing the word contained in a EZ-Gimpy captha image.
+Recognizing the word contained in a EZ-Gimpy captcha image.
 
 The images and the files with words can be downloaded from [here](https://drive.google.com/file/d/0BwNBoW5RIOOZa29McEVCeTZaVUk/view?usp=sharing).
 
@@ -21,7 +21,7 @@ Running without any specified arguments means that all images from the *Dataset*
 
 ## About ##
 
-The process of calculating the most probable words is devided in three steps:
+The process of calculating the most probable words is divided in three steps:
 
 1. **Image processing** - remove the noise and extract the estimated regions that contain letters
 2. **Prediction** - predict a letter for every region using the [K-nearest neighbour algorithm](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
