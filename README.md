@@ -28,7 +28,7 @@ The process of calculating the most probable words is devided in three steps:
 3. **Find probable words** - using the [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance), find the most probable words that can be found in the *word_collection.txt* file using the calculated letters and their order  
 
 ## Testing ##
-All of the testing is done referencing the *words.txt* file that contains the correct words for every image in the *Dataset* folder. The data that is being tested should be in the *out.txt* file.
+All of the testing is done referencing the *correct_words.txt* file that contains the correct words for every image in the *Dataset* folder. The data that is being tested should be in the *out.txt* file.
 
 There are three results of the test:
 
